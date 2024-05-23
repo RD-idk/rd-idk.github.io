@@ -38,7 +38,7 @@ body {
       background-color: rgba(0, 0, 0, 0.3);
       backdrop-filter: blur(5px);
       border-radius: 10px;
-      box-shadow: 1 4px 8px rgba(0, 0, 0, 0.9);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 1.0);
             .center-container {
             display: flex;
             justify-content: center;
