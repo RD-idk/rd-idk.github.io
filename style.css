@@ -1,0 +1,51 @@
+body {
+  background-image: url('https://github.com/H17041/Cool-Backgrounds/blob/main/2109.jpg?raw=true');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  text-color: white
+  }
+      @font-face { font-family: Montserrat; src: url('Montserrat-Regular.ttf'); } 
+      h1 {
+         font-family: Montserrat;
+         color:white;
+      }
+      p {
+        font-family: Montserrat;
+        color:white;
+      }
+      a {
+        font-family: Montserrat;
+        color:white;
+      }
+      h2 {
+        font-family: Montserrat;
+        color:white;
+      }
+      font {
+         font-family: Montserrat;
+         color:white;
+      }
+      footer {
+         font-family: Montserrat;
+         color:white;
+      }
+        .container {
+      max-width: 85%;
+      margin: 89px auto;
+      padding: 30px;
+      background-color: rgba(0, 0, 0, 0.3);
+      border-radius: 5px
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+            .center-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+            .center-image {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+}
