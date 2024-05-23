@@ -36,9 +36,9 @@ body {
       margin: 89px auto;
       padding: 30px;
       background-color: rgba(0, 0, 0, 0.3);
-      backdrop-filter: blur(10px);
-      border-radius: 5px
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+      backdrop-filter: blur(5px);
+      border-radius: 10px
+      box-shadow: 1 4px 8px rgba(0, 0, 0, 0.9);
             .center-container {
             display: flex;
             justify-content: center;
