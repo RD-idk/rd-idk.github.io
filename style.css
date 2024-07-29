@@ -69,3 +69,120 @@ body {
             margin-right: auto;
         }
 }
+
+    @import url(
+'https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+     .anim1 {
+        font-family: Montserrat;
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 34px;
+    }
+
+     .anim {
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+     .anim:last-of-type span {
+        font-size: 34px;
+        color: #FFFFFF;
+        animation: slide 6s;
+    }
+    @keyframes slide {
+        0% {
+            margin-left: -800px;
+        }
+
+        20% {
+            margin-left: -800px;
+        }
+
+        35% {
+            margin-left: 0px;
+        }
+
+        100% {
+            margin-left: 0px;
+        }
+    }
+
+.text-slide {
+  text-align: center;
+}
+
+.text-slide>div {
+  display: inline-block;
+  text-align: left;
+  height: 40px;
+  line-height: 40px;
+  overflow: hidden;
+  font-size: 30px;
+}
+
+.text span {
+  display: block;
+  color: #fff;
+  padding: 0 10px;
+}
+
+.text {
+  position: relative;
+  animation: text-animation ease 8s infinite;
+}
+
+@keyframes text-animation {
+  0% {
+    top: 0px;
+  }
+
+  10% {
+    top: 0px;
+  }
+
+  20% {
+    top: 0px;
+  }
+
+  30% {
+    top: 0px;
+  }
+
+  40% {
+    top: 0px;
+  }
+
+  50% {
+    top: -40px;
+  }
+  
+  60% {
+    top: -40px;
+  }
+  
+  70% {
+    top: -40px;
+  }
+  
+  80% {
+    top: -40px;
+  }
+  
+  90% {
+    top: -40px;
+  }
+  
+  100% {
+    top: 0px;
+  }
+}
+
+span:nth-child(1) {
+  background-color: #00000000;
+}
+
+span:nth-child(2) {
+  background-color: #00000000;
+}
