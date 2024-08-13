@@ -52,7 +52,7 @@ body {
 }
         .container1 {
       position: sticky;
-      top: 30px;
+      top: 2rem;
       max-width: %;
       margin: 0px auto;
       padding: 1px;
