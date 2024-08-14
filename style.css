@@ -31,6 +31,16 @@ body {
          font-family: Montserrat;
          color:white;
       }
+      small {
+        font-family: Montserrat;
+        color:white;
+      }
+      b {
+        font-family: Montserrat;
+        color:white;
+      }
+      
+
         .container {
       max-width: 85%;
       margin: 89px auto;
