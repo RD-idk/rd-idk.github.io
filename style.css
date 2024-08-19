@@ -1,0 +1,200 @@
+body {
+  background-image: url('https://github.com/H17041/Cool-Backgrounds/blob/main/2109.jpg?raw=true');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  text-color: white
+  }
+      @font-face { font-family: Montserrat; src: url('Montserrat-Regular.ttf'); } 
+      h1 {
+         font-family: Montserrat;
+         color:white;
+      }
+      p {
+        font-family: Montserrat;
+        color:white;
+      }
+      a {
+        font-family: Montserrat;
+        color:white;
+      }
+      h2 {
+        font-family: Montserrat;
+        color:white;
+      }
+      font {
+         font-family: Montserrat;
+         color:white;
+      }
+      footer {
+         font-family: Montserrat;
+         color:white;
+      }
+      small {
+        font-family: Montserrat;
+        color:white;
+      }
+      b {
+        font-family: Montserrat;
+        color:white;
+      }
+      
+
+        .container {
+      max-width: 85%;
+      margin: 89px auto;
+      padding: 30px;
+      background-color: rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(10px);
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 1.0);
+            .center-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+            .center-image {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+}
+        .topbar {
+      position: sticky;
+      top: 2rem;
+      max-width: %;
+      margin: 0px auto;
+      padding: 1px;
+      background-color: rgba(0, 0, 0, 0.75);
+      backdrop-filter: blur(10px);
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 1.0);
+            .center-container1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+            .center-image {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+}
+
+    @import url(
+'https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+     .anim1 {
+        font-family: Montserrat;
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 34px;
+    }
+
+     .anim {
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+     .anim:last-of-type span {
+        font-size: 34px;
+        color: #FFFFFF;
+        animation: slide 6s;
+    }
+    @keyframes slide {
+        0% {
+            margin-left: -800px;
+        }
+
+        20% {
+            margin-left: -800px;
+        }
+
+        35% {
+            margin-left: 0px;
+        }
+
+        100% {
+            margin-left: 0px;
+        }
+    }
+
+.text-slide {
+  text-align: center;
+}
+
+.text-slide>div {
+  display: inline-block;
+  text-align: left;
+  height: 40px;
+  line-height: 40px;
+  overflow: hidden;
+  font-size: 30px;
+}
+
+.text span {
+  display: block;
+  color: #fff;
+  padding: 0 10px;
+}
+
+.text {
+  position: relative;
+  animation: text-animation ease 8s infinite;
+}
+
+@keyframes text-animation {
+  0% {
+    top: 0px;
+  }
+
+  10% {
+    top: 0px;
+  }
+
+  20% {
+    top: 0px;
+  }
+
+  30% {
+    top: 0px;
+  }
+
+  40% {
+    top: 0px;
+  }
+
+  50% {
+    top: -40px;
+  }
+  
+  60% {
+    top: -40px;
+  }
+  
+  70% {
+    top: -40px;
+  }
+  
+  80% {
+    top: -40px;
+  }
+  
+  90% {
+    top: -40px;
+  }
+  
+  100% {
+    top: 0px;
+  }
+}
+
+span:nth-child(1) {
+  background-color: #00000000;
+}
+
+span:nth-child(2) {
+  background-color: #00000000;
+}
