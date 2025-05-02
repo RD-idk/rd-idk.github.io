@@ -1,25 +1,103 @@
-<DOCTYPE html>
-<html>
-<head>
-  <title>RD's Website&#9475;Home</title>
-  <meta property="og:title" content="RD's Website!">
-  <meta property="og:description" content="RD's Website! (powered by github pages)">
-    <meta property="og:image" content="ProfilePicture.png">
-  <link rel="icon" type="x-icon" href="ProfilePicture.png">
-  <link rel="stylesheet" href="style.css">
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-</head>
+<style>
 
-<body>
-<div class="container">
-<div class="container1">
-<p align="center">
-<font size="4" style="padding: 3px;border:white 0px SOLID;color:white;border-radius: 10px;">
-<img src="ProfilePicture.png"
-             width="27" 
-     height="27" style="position: relative;top: 8px;border-radius:50px;border:white 1px SOLID;" /> RD's Website</font><font size="5">&#9475;</font><a href='index.html' style="padding: 3px;border:white 2px SOLID;color:white;border-radius: 10px;" ><font size="4">Home</font></a><font size="4"> </font><a href='links.html'  style="padding: 3px;border:white 2px SOLID;color:white;border-radius: 10px;" font size="5">Links</a>
-</p></div>
-<h2></h2>
+   
+.sidenav {
+  height: 100%; 
+  width: 0; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0;
+  left: 0;
+  background-color: #111; 
+  overflow-x: hidden; 
+  padding-top: 60px; 
+  transition: 0.5s; 
+}
+
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="random_songs_gallery.html">Random Songs</a>
+    <a href="furry_pics.html">Furry Pics</a>
+    <a href="saltibarsciai.html">Šaltibarsčiai</a>
+    <a href="my_pc_specs.html">My PC Specs</a>
+    <a href="https://melon.cgcristi.xyz">melon.tech website</a>
+    <a href="https://guns.lol/rd.apk">My guns.lol page</a>
+    <a href="https://github.com/RD-github31/rd-github31.github.io">Source Code</a>
+    <a href="projects.html">My Projects</a>
+  </div>
+
+  
+ <div id="main">
+    
+
+
+
+
+
+
+
+
+    <DOCTYPE html>
+      <html>
+      <head>
+        <link rel="stylesheet" href="style.css">
+        <title>RD's Website&#9475;style test</title>
+        <meta property="og:title" content="STYLE TEST">
+        <meta property="og:description" content="ayayyayayayayayazaza">
+          <meta property="og:image" content="ProfilePicture.png">
+        <link rel="icon" type="x-icon" href="ProfilePicture.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </head>
+      <body>
+      <div class="container">
+      <div class="container1">
+        
+      <p align="center">
+      <font size="4" style="padding: 3px;border:white 0px SOLID;color:white;border-radius: 10px;">
+      <span onclick="openNav()"><img src="hamburger.png"
+        width="27" 
+height="27" style="position: relative;top: 8px;" > </span><img src="ProfilePicture.png"
+                   width="27" 
+           height="27" style="position: relative;top: 8px;border-radius:50px;border:white 1px SOLID;" /> RD's Website</font><font size="5">
+      </p></div>
+
+    <!-- start -->
+
+
+    <h2></h2>
 <div class="anim1">
     <div class="anim"; align="center">Welcome to:</div>
     <div class="anim"; align="center">
@@ -47,3 +125,27 @@ Google Search results and Microsoft Office FrontPage&nbsp; 2003</p>
 <a rel="me" href="https://v0dev.social/@rd_furry">Mastodon</a>
 </body>
 </html>
+
+
+
+      <!-- end -->
+
+
+
+
+
+
+  </div>
+  <script>
+ function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,1)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+  document.body.style.backgroundColor = "#131313";
+}
+  </script>
