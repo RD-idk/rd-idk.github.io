@@ -38,7 +38,7 @@ body {
       
 
         .container {
-      max-width: 85%;
+      max-width: 800px;
       margin: 89px auto;
       padding: 30px;
       background-color: rgba(0, 0, 0, 0.3);
