@@ -50,9 +50,9 @@
       <html>
       <head>
         <link rel="stylesheet" href="style.css">
-        <title>RD's Website&#9475;Error 404</title>
-        <meta property="og:title" content="404: Not Found">
-        <meta property="og:description" content="Sorry, this website doesn't have the thing you are looking for.">
+        <title>RD's Website&#9475;Text Reverse Tool</title>
+        <meta property="og:title" content="RD's Website&#9475;Text Reverse Tool">
+        <meta property="og:description" content="looT esreveR txeT┃etisbeW s'DR">
           <meta property="og:image" content="ProfilePicture.png">
         <link rel="icon" type="x-icon" href="ProfilePicture.png">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -71,26 +71,101 @@ height="27" style="position: relative;top: 8px;" class="menubtn":hover > </span>
       </p></div>
 
     <!-- start -->
+<style>
+.text-tool{
+  border-radius: 15px;
+  backdrop-filter: blur(5px);
+  background-color: rgba(0,0,0,0);
+  color: #ffffffc0;
+  border: #ffffff30 1px outset;
+  padding: 10px;
+  width: 100%;
+  font-size: 15px;
+  font-family: Montserrat;
+}
+.card {
+  border-radius: 5px;
+  backdrop-filter: blur(5px);
+  background-color: rgba(0,0,0,0);
+  color: #ffffffc0;
+  border: #ffffff30 1px outset;
+  padding: 10px;
+  width: 100%;
+  font-size: 15px;
+  font-family: Montserrat;
+}
+.btn {
+  border-radius: 5px;
+  backdrop-filter: blur(5px);
+  background-color: rgba(0,0,0,0);
+  color: #ffffffc0;
+  border: #ffffff30 1px outset;
+  padding: 10px;
+  width: 100%;
+  font-size: 15px;
+  font-family: Montserrat;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: 0.3s;
+}
+.text-tool .btn:hover {
+  color: #f1f1f1;
+  transform: rotate(-2.5deg);
+  scale: 1.1;
+  border: #ffffff30 1px outset;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.text-tool .btn:active {
+  color: #f1f1f1;
+  transform: rotate(2.5deg);
+  scale: 0.9;
+  border: #ffffff30 1px outset;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 1);
+}
+textarea {
+  border-radius: 5px;
+  backdrop-filter: blur(5px);
+  background-color: rgba(0,0,0,0);
+  color: #ffffffc0;
+  border: #ffffff30 1px outset;
+  padding: 10px;
+  width: 100%;
+  font-size: 15px;
+  font-family: Montserrat;
+  resize: vertical;
+}
+</style>
 
 
-    <h1 align="center";>404: Not Found</h1>
-<p align="center";>Could not find the page you are looking for.</p>
-<p align="center";>Maybe do you want to leave a suggestion on what should i add to this website?<a href="https://discord.gg/DHEannubaH"; style="color:white;"> Join my discord server! </a>
-</p>
+<h1 align="center">Text Reverse Tool</h1>
 
-</body>
-</html>
+<div class="text-tool">
+<textarea id="inputText" placeholder="Type something cool..."></textarea>
+<button onclick="reverseText()" class="btn">Reverse It!</button>
+<div id="reversedText" class="card" >Reversed text goes here</div>
+</div>
+<div style="font-size: 10px; text-align: right;">
+<a> Note: Honestly i don't know how to fix this thing right here ↗</a>
+<br> <a>Do a pull request in the repository if you know how to fix it. (And no, i am NOT going to use AI for website development.)</a>
+<br> <a>Another note: Keyboard controls won't work on this page</a>
+</div>
 
-
+<script>
+        function reverseText() {
+            var input = document.getElementById("inputText").value;
+            var reversed = input.split("").reverse().join("");
+            document.getElementById("reversedText").innerText = reversed || "Type something bro";
+        }
+</script>
 
 
       <!-- end -->
 
 
 
-
-
-
   </div>
 </div>
-  <script src="script.js"></script>
+<script src="script-no-keyboard.js"></script>

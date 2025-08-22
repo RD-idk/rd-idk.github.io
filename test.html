@@ -1,69 +1,42 @@
-<style>
 
-   
-.sidenav {
-  height: 100%; 
-  width: 0; 
-  position: fixed; 
-  z-index: 1; 
-  top: 0;
-  left: 0;
-  background-color: #111; 
-  overflow-x: hidden; 
-  padding-top: 60px; 
-  transition: 0.5s; 
-}
+<div id="Tools" class="sidenav">
+    <img href="javascript:void(0)" class="closebtn" onclick="closeTools()" src="close_hamburger.png" width="27" height="27"></img>
+    <p>TOOLS</p>
+    <a href="tools_textreverse.html">Text Reverse Tool</a>
+  </div>
 
+<div id="Galleries" class="sidenav">
+    <img href="javascript:void(0)" class="closebtn" onclick="closeGallery()" src="close_hamburger.png" width="27" height="27"></img>
+    <p>GALLERIES</p>
+    <a href="random_songs_gallery.html">Random Songs Gallery</a>
+    <a href="furry_pics.html">Furry Pics Gallery</a>
+    <a href="saltibarsciai.html">Šaltibarsčiai Pics Gallery </a>
+  </div>
 
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-#main {
-  transition: margin-left .5s;
-  padding: 20px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-</style>
-<div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="index.html">Home</a>
-    <a href="random_songs_gallery.html">Random Songs</a>
-    <a href="furry_pics.html">Furry Pics</a>
-    <a href="saltibarsciai.html">Šaltibarsčiai</a>
-    <a href="my_pc_specs.html">My PC Specs</a>
-    <a href="https://melon.cgcristi.xyz">melon.tech website</a>
+<div id="Personal" class="sidenav">
+    <img href="javascript:void(0)" class="closebtn" onclick="closePersonal()" src="close_hamburger.png" width="27" height="27"></img>
+    <p>PERSONAL</p>
+    <a href="AboutRD.html">About Me (RD)</a>
+    <a href="DMS_Etiquette.html">DMS Etiquette</a>
     <a href="https://guns.lol/rd.apk">My guns.lol page</a>
-    <a href="https://github.com/RD-github31/rd-github31.github.io">Source Code</a>
     <a href="projects.html">My Projects</a>
+    <a href="https://melon.cgcristi.dev">melon.tech website</a>
+  </div>
+
+<div id="mainwithmenu">
+<div id="mySidenav" class="sidenav">
+    <img href="javascript:void(0)" class="closebtn" onclick="closeNav()" src="close_hamburger.png" width="27" height="27"></img>
+    <p>MENU</p>
+    <a href="index.html">Home</a>
+    <a href="javascript:void(0)" onclick="openGallery()">Galleries</a>
+    <a href="javascript:void(0)" onclick="openPersonal()">My Personal Stuff</a>
+    <a href="javascript:void(0)" onclick="openTools()">Tools</a>
+    <a href="themes.html">Themes</a>
+    <a href="https://github.com/RD-github31/rd-github31.github.io">Source Code</a>
   </div>
 
   
- <div id="main">
-    
-
-
+  <div id="main">
 
 
 
@@ -82,16 +55,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
       <body>
-      <div class="container">
-      <div class="container1">
+      <div class="container" id="container">
+      <div class="container1" id="container1">
         
       <p align="center">
-      <font size="4" style="padding: 3px;border:white 0px SOLID;color:white;border-radius: 10px;">
-      <span onclick="openNav()"><img src="hamburger.png"
+      <font size="4" style="padding: 3px;border:white 0px SOLID;color:#ffffffc0;;border-radius: 10px;">
+      <span href="javascript:void(0)" class="menubtn" onclick="openNav()"><img src="hamburger.png"
         width="27" 
-height="27" style="position: relative;top: 8px;" > </span><img src="ProfilePicture.png"
+height="27" style="position: relative;top: 8px;" class="menubtn":hover > </span><img src="ProfilePicture.png"
                    width="27" 
-           height="27" style="position: relative;top: 8px;border-radius:50px;border:white 1px SOLID;" /> RD's Website</font><font size="5">
+           height="27" style="position: relative;top: 8px;border-radius:50px;" /> RD's Website</font><font size="5">
       </p></div>
 
     <!-- start -->
@@ -109,20 +82,13 @@ height="27" style="position: relative;top: 8px;" > </span><img src="ProfilePictu
 
 
 
-
+  <div id="main">
       
 
-  </div>
-  <script>
- function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
-  document.body.style.backgroundColor = "rgba(0,0,0,1)";
-}
+      <!-- end -->
 
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-  document.getElementById("main").style.marginLeft = "0";
-  document.body.style.backgroundColor = "#131313";
-}
-  </script>
+
+
+  </div>
+</div>
+  <script src="script.js"></script>
